@@ -1,0 +1,22 @@
+K -> S P O
+K -> S P O Pel
+K -> S P O Ket
+K -> S P O Pel Ket
+K -> S P Pel
+K -> S P Ket
+S -> NP
+P -> VP
+O -> NP | PP
+Ket -> NP | PP | Adj | Prep
+Pel -> NP | Adj | PP | Adv | Num
+NP -> NP Noun | NP PropNoun | NP Pronoun | Noun | Num NP | Propnoun | NP Adj
+VP -> Adv VP | Verb
+PP -> Prep Noun
+Noun -> sang penyair | adik | kakak | pak | ayah | nenek | kelinci | Hp | kakek | puisi | sepatu | nasi | goreng | ibu | lantai | kamar | mandi | lagu | surat | kakek | padi | kelinci | pagar | bambu | batu | kerikil | bola | susu | bunga | melati | buku | novel | sawah | pemandangan | kebun | penjahat | hutan | sayur | teh | daun | dapur | lagu | pelengkap | buku | mainan | gelas | pohon | gergaji | listrik | mainan | mobil  | cerita | perpustakaan | lantai | traktor | kampung | anjing | mainan | celana | sekolah | pensil | warna | motor | televisi | burung | artikel | sepatu | merdu | kantong | pasar | petir | polisi | maling | tahanan | rumah | teman | seorang | halaman | sekolah | taman | suaranya | kerabat | kamar | tidur
+PropNoun -> Sita | Vina | Roni | Yoni | Leo | Naura | Kinan | Lini | Rina | Raka | Intan | Agnita | Dewi | Krisna | Carlos | Andi | Gung Wah | Dhandy | Monika | Aldo | Rebecca | Diah | Ayu | Krisna | Toni | Agus
+Propnoun -> itu | mereka | saya | seorang
+Num -> sebait | sepucuk | sebu
+Verb -> menulis | mencuci | membeli | menyapu | membersihkan | mendengarkan | mengirim | menanam | melompati | melempar | menendang | menuang | mengambil | mengagumi | memetik |  membaca | membajak | melukis | menyetir | menangkap | memasakkan | membuatkan | menyanyikan | memberikan | membelikan | menuangi | menebangi | memetikkan | membacakan | menjahitkan | meminjamkan | memberikan | membaca | menonton | menggambar | menulis | berjalan | bekerja | melarikan | menginap | menangis | berlari | bernyanyi | berdiri | bergerak | bergetar | berteriak | berbelanja | tersambar | tertangkap
+Adv -> sedang | sudah | baru saja | selalu | hingga | hati-hati | sangat | sebagai
+Prep -> di | ke | dengan | untuk
+Adj -> baru | enak | galau | besar | indah | bersih | bekas | kencang | merdu | pendek | tegak | lincah | serak | tinggi | sempoyongan | siang | malam | kecantikan | semangat
