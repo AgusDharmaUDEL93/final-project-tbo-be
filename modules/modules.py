@@ -1,5 +1,5 @@
 def hello():
-    return "Halla!"
+    return "Hallo!"
 
 def content():
     return '''
