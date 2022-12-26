@@ -1,22 +1,26 @@
-K -> S P O
-K -> S P O Pel
-K -> S P O Ket
-K -> S P O Pel Ket
-K -> S P Pel
+K -> S P
 K -> S P Ket
+K -> S P O
+K -> S P O Ket
+K -> S P Pel
+K -> S P Pel Ket
+K -> S P O Pel
+K -> S P O Pel Ket
 S -> NP
-P -> VP
-O -> NP | PP
-Ket -> NP | PP | Adj | Prep
-Pel -> NP | Adj | PP | Adv | Num
-NP -> NP Noun | NP PropNoun | NP Pronoun | Noun | Num NP | Propnoun | NP Adj
-VP -> Adv VP | Verb
-PP -> Prep Noun
-Noun -> sang penyair | adik | kakak | pak | ayah | nenek | kelinci | Hp | kakek | puisi | sepatu | nasi | goreng | ibu | lantai | kamar | mandi | lagu | surat | kakek | padi | kelinci | pagar | bambu | batu | kerikil | bola | susu | bunga | melati | buku | novel | sawah | pemandangan | kebun | penjahat | hutan | sayur | teh | daun | dapur | lagu | pelengkap | buku | mainan | gelas | pohon | gergaji | listrik | mainan | mobil  | cerita | perpustakaan | lantai | traktor | kampung | anjing | mainan | celana | sekolah | pensil | warna | motor | televisi | burung | artikel | sepatu | merdu | kantong | pasar | petir | polisi | maling | tahanan | rumah | teman | seorang | halaman | sekolah | taman | suaranya | kerabat | kamar | tidur
-PropNoun -> Sita | Vina | Roni | Yoni | Leo | Naura | Kinan | Lini | Rina | Raka | Intan | Agnita | Dewi | Krisna | Carlos | Andi | Gung Wah | Dhandy | Monika | Aldo | Rebecca | Diah | Ayu | Krisna | Toni | Agus
-Propnoun -> itu | mereka | saya | seorang
-Num -> sebait | sepucuk | sebu
-Verb -> menulis | mencuci | membeli | menyapu | membersihkan | mendengarkan | mengirim | menanam | melompati | melempar | menendang | menuang | mengambil | mengagumi | memetik |  membaca | membajak | melukis | menyetir | menangkap | memasakkan | membuatkan | menyanyikan | memberikan | membelikan | menuangi | menebangi | memetikkan | membacakan | menjahitkan | meminjamkan | memberikan | membaca | menonton | menggambar | menulis | berjalan | bekerja | melarikan | menginap | menangis | berlari | bernyanyi | berdiri | bergerak | bergetar | berteriak | berbelanja | tersambar | tertangkap
-Adv -> sedang | sudah | baru saja | selalu | hingga | hati-hati | sangat | sebagai
-Prep -> di | ke | dengan | untuk
-Adj -> baru | enak | galau | besar | indah | bersih | bekas | kencang | merdu | pendek | tegak | lincah | serak | tinggi | sempoyongan | siang | malam | kecantikan | semangat
+P -> NP | VP
+O -> NP
+Pel -> AdjP | NP | NumP | PP | VP
+Ket -> PP
+NP -> Adj NP | Adv NP | Noun | Pronoun | Noun NP | NP Adj | NP Noun | NP Pronoun | NP PropNoun | NP Verb | Num NP | Pronoun NP | PropNoun
+PP -> Prep NP | Prep AdjP | Prep VP | Prep NumP
+VP -> Adv | Adv VP | Verb NP | VP Noun | VP Pronoun | VP Verb | Verb
+NumP -> Num | NumP Adv | NumP Noun
+AdjP -> Adj | Adv AdjP
+Noun -> kejadian | persepsi | masyarakat | wahana | korban | anak | paman | adegan | adik | teman | orang | paras | pengalaman | hal | gadis | perhatian | wanita | hati | bujang | pemalu | pacar | pria | pendendam | remaja | pencuri | polisi | penyayang | kakek | seorang | pejuang | negara | banteng | perusak | kebun | kelapa | sawit | malam | petinju | turnamen | film | bioskop | sekolah | suasana | pantai | olimpiade | matematika | ayah | uang | rumah | pemotong | kayu | desa | penipu | kantor | pemalas | Prestasi | tenda | kelas | kukang | hewan | hutan | peneliti | laboratorium | Penyabar | taman | kota | bakso | anjing | tangan | tongkat | pertandingan | parfum | Ibu | Bapak | bunga | mawar | hadiah | kucing | onar | sifat | pemaaf | kue | konser | burung | bulu | lagu | saat | hakim | pengampun | kasus | kakak | depan | umum | pemberontak | nenek | pelupa | kancil | pembohong
+Pronoun -> itu | nya | mereka | ku | ini | saya | ia | sesuatu
+Verb -> menentramkan | mengubah | berbahaya | menelan | terlantar | diasuh | memerankan | membuat | terkejut | memiliki | memukau | merekam | mengharukan | memalukan | menarik | memikat | memarahi | membunuh | ditangkap | membantu | adalah | membawa | dikalahkan | merasakan | menolak | menyedihkan | menonton | melawan | menghantui | mencekam | membanggakan | mengherankan | beristirahat | tertidur | berlajan |  bisa | membelikan | berdarah | mencekam | menuduh | menawarkan | Terkenal | memelihara | mengakui | mendapatkan | menyukai | menakutkan | tercinta | memenangkan | tinggal | mengajak | menjadi | tidur | menyenangkan | membeli | melemparkan | menyebabkan | memakai | terharu | melukai | kehilangan | membanggakan | mengusir | dapat | menceritakan | menggembirakan | berbekas
+Adv -> dapat | telah | sangat | sudah | selalu | ingin | paling | sedang | sempat | masih
+Num -> banyak | setiap | seluruh | kedua | semangkok | dua | setangkai | beberapa
+Prep -> oleh | bagi | ke | di | dalam | supaya | dari | sampai | hingga | kepada | untuk | dengan | pada | karena | si
+PropNoun -> Udin | Akhirudin | Awaludin | Kirudin | Kamarudin | Samsudin | Saipudin | Sarafudin | Bahrudin | Yando | Dila | Arga | Deni | Wena | Arya | Rika
+Adj -> tua | menarik | terkenal | bahagia | pemarah | pendiam | senang | tangguh | pelupa | kali | selalu | tidak | handal | besar

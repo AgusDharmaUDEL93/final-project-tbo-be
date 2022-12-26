@@ -1,8 +1,6 @@
 from controllers.conversion import gettingCNF
 
 triangularTable = {}
-# g = None
-# previousNode = None
 
 def is_accepted(inputString):
     triangularTable.clear()
@@ -36,6 +34,7 @@ def is_accepted(inputString):
                         if (val in tempList and key not in resultList):
                             resultList.append(key)
                 triangularTable[(j,j+len(inputString) - i)] = resultList
+    # print(triangularTable)
     if "K" in triangularTable[(1, len(inputString))]:
         return True
     else:
