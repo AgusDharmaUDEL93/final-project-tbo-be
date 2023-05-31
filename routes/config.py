@@ -22,3 +22,18 @@ def configRoute(app):
             'message' : 'succes get validation',
             'result': result
         })
+    
+    @app.route("/rules", methods=['GET'])
+    @cross_origin()
+    def rules():
+        f = open("./variableList.txt", "r", encoding="utf-8")
+        rules = []
+        for lines in f:
+            rules.append(lines.replace("\n", ""))
+        f.close()
+        return jsonify({
+            'status' : 1,
+            'message' : 'succes get rules',
+            'result': rules,
+        })
+
